@@ -1,0 +1,9 @@
+C:\Users\HP\Downloads\BookSmart\LivrariaDB\bin\Debug\LivrariaDB.dacpac
+C:\Users\HP\Downloads\BookSmart\LivrariaDB\bin\Debug\LivrariaDB.dll
+C:\Users\HP\Downloads\BookSmart\LivrariaDB\bin\Debug\LivrariaDB.pdb
+C:\Users\HP\Downloads\BookSmart\LivrariaDB\obj\Debug\LivrariaDB.dll
+C:\Users\HP\Downloads\BookSmart\LivrariaDB\obj\Debug\LivrariaDB.pdb
+C:\Users\HP\Downloads\BookSmart\LivrariaDB\obj\Debug\Model.xml
+C:\Users\HP\Downloads\BookSmart\LivrariaDB\obj\Debug\refactor.xml
+C:\Users\HP\Downloads\BookSmart\LivrariaDB\obj\Debug\postdeploy.sql
+C:\Users\HP\Downloads\BookSmart\LivrariaDB\obj\Debug\predeploy.sql

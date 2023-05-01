@@ -1,0 +1,203 @@
+<mxfile host="app.diagrams.net" modified="2023-04-15T12:46:22.940Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36" etag="ZFc89O1i09SwmC8Aq0pI" version="21.1.8" type="device" pages="2">
+  <diagram name="Fluxo Compra" id="W9pEv1alfZJ_6p-2kapG">
+    <mxGraphModel dx="1053" dy="2936" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="nJ588UXQkUz6ROcZKHbB-5" value="&lt;br&gt;Finalizar Pedido" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Tahoma;fontSize=12;align=left;verticalAlign=top;fontStyle=1;spacing=0;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;arcSize=6;spacingLeft=8;" parent="1" vertex="1">
+          <mxGeometry x="435" y="-590" width="360" height="630" as="geometry" />
+        </mxCell>
+        <mxCell id="nJ588UXQkUz6ROcZKHbB-4" value="&lt;br&gt;Montar carrinho &lt;br&gt;de compras" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Tahoma;fontSize=12;align=left;verticalAlign=top;fontStyle=1;spacing=0;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;arcSize=6;spacingLeft=8;" parent="1" vertex="1">
+          <mxGeometry x="20" y="-700" width="350" height="740" as="geometry" />
+        </mxCell>
+        <mxCell id="nJ588UXQkUz6ROcZKHbB-3" value="&lt;br&gt;Acesso do usuário" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Tahoma;fontSize=12;align=left;verticalAlign=top;fontStyle=1;spacing=0;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;arcSize=6;spacingLeft=8;" parent="1" vertex="1">
+          <mxGeometry x="25" y="-1050" width="360" height="318" as="geometry" />
+        </mxCell>
+        <mxCell id="38u-VmRdAUxQtO81r9W0-25" value="&lt;span style=&quot;font-family: Tahoma; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 700; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;Helix Sandbox NG&lt;/span&gt;" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=#f5f5f5;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fillColor=#f8cecc;strokeColor=#b85450;fontColor=#b85450;" parent="1" source="BNnvWdhkVtyG1ez3-udf-2" target="38u-VmRdAUxQtO81r9W0-11" edge="1">
+          <mxGeometry x="-0.1429" y="3" relative="1" as="geometry">
+            <mxPoint x="210" y="-500" as="sourcePoint" />
+            <mxPoint x="204" y="-610" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="38u-VmRdAUxQtO81r9W0-27" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" source="38u-VmRdAUxQtO81r9W0-11" target="38u-VmRdAUxQtO81r9W0-13" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="38u-VmRdAUxQtO81r9W0-11" value="Retornar o Saldo do Usuário&lt;br&gt;&lt;font style=&quot;font-size: 8px;&quot;&gt;MongoDB&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
+          <mxGeometry x="105" y="-840" width="185" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="BFV1TZnJOwGqileFoabD-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="38u-VmRdAUxQtO81r9W0-13" target="BFV1TZnJOwGqileFoabD-1" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="38u-VmRdAUxQtO81r9W0-13" value="Usuário passa tag do livro&lt;br&gt;&lt;font style=&quot;font-size: 8px;&quot;&gt;RFID Mfrc522&amp;nbsp; + ESP32&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
+          <mxGeometry x="105" y="-630" width="185" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="BFV1TZnJOwGqileFoabD-4" value="Sim" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontColor=#b85450;labelBackgroundColor=#f5f5f5;" parent="1" source="BFV1TZnJOwGqileFoabD-1" target="BFV1TZnJOwGqileFoabD-3" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="BFV1TZnJOwGqileFoabD-7" value="Não" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fillColor=#f8cecc;strokeColor=#b85450;fontColor=#b85450;labelBackgroundColor=#f5f5f5;" parent="1" source="BFV1TZnJOwGqileFoabD-1" target="BFV1TZnJOwGqileFoabD-8" edge="1">
+          <mxGeometry x="-0.6552" relative="1" as="geometry">
+            <mxPoint x="340" y="-350" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BFV1TZnJOwGqileFoabD-1" value="Saldo suficiente?&lt;br style=&quot;font-size: 11px;&quot;&gt;&lt;font style=&quot;font-size: 8px;&quot;&gt;ESP32&lt;/font&gt;" style="rhombus;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" vertex="1">
+          <mxGeometry x="112.5" y="-540" width="170" height="95" as="geometry" />
+        </mxCell>
+        <mxCell id="84O-ct4bnFzRlTZ7ZsWm-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" source="BFV1TZnJOwGqileFoabD-3" target="84O-ct4bnFzRlTZ7ZsWm-1" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="BFV1TZnJOwGqileFoabD-3" value="Registra compra&lt;br&gt;&lt;font style=&quot;font-size: 8px;&quot;&gt;MongoDB&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
+          <mxGeometry x="105" y="-370" width="185" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="BNnvWdhkVtyG1ez3-udf-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="BFV1TZnJOwGqileFoabD-8" target="BNnvWdhkVtyG1ez3-udf-3" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="BFV1TZnJOwGqileFoabD-8" value="Informa Saldo Indisponível" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
+          <mxGeometry x="500" y="-522.5" width="185" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="BNnvWdhkVtyG1ez3-udf-1" value="Novo Livro" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fillColor=#f8cecc;strokeColor=#b85450;fontColor=#b85450;labelBackgroundColor=#f5f5f5;" parent="1" source="BFV1TZnJOwGqileFoabD-11" target="BFV1TZnJOwGqileFoabD-1" edge="1">
+          <mxGeometry x="0.1407" relative="1" as="geometry">
+            <mxPoint x="110" y="-440" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="198" y="10" />
+              <mxPoint x="60" y="10" />
+              <mxPoint x="60" y="-492" />
+            </Array>
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BNnvWdhkVtyG1ez3-udf-4" value="Tag Usuário" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fillColor=#f8cecc;strokeColor=#b85450;fontColor=#b85450;labelBackgroundColor=#f5f5f5;" parent="1" source="BFV1TZnJOwGqileFoabD-11" target="BNnvWdhkVtyG1ez3-udf-3" edge="1">
+          <mxGeometry x="-0.5856" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BFV1TZnJOwGqileFoabD-11" value="Valida qual o tipo de tag&lt;br&gt;&lt;font style=&quot;font-size: 8px;&quot;&gt;MongoDB&lt;/font&gt;" style="rhombus;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
+          <mxGeometry x="112.5" y="-130" width="170" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="BNnvWdhkVtyG1ez3-udf-2" value="&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;Leitura da Tag RFID Mifare correspondente ao usuário&lt;br&gt;&lt;/span&gt;&lt;font style=&quot;font-size: 8px;&quot;&gt;RFID Mfrc522&amp;nbsp; + ESP32&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;labelBackgroundColor=none;" parent="1" vertex="1">
+          <mxGeometry x="105" y="-980" width="185" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="BNnvWdhkVtyG1ez3-udf-3" value="Finaliza Compra&lt;br&gt;&lt;font style=&quot;font-size: 8px;&quot;&gt;MongoDB + SQL&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
+          <mxGeometry x="500" y="-110" width="185" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="84O-ct4bnFzRlTZ7ZsWm-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" source="84O-ct4bnFzRlTZ7ZsWm-1" target="BFV1TZnJOwGqileFoabD-11" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="84O-ct4bnFzRlTZ7ZsWm-1" value="Usuário passa nova tag&lt;br&gt;&lt;font style=&quot;font-size: 8px;&quot;&gt;RFID Mfrc522&amp;nbsp; + ESP32&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
+          <mxGeometry x="105" y="-240" width="185" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="84O-ct4bnFzRlTZ7ZsWm-6" value="" style="endArrow=classic;html=1;rounded=0;strokeWidth=2;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="445" y="-748" as="sourcePoint" />
+            <mxPoint x="525" y="-788" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="84O-ct4bnFzRlTZ7ZsWm-7" value="" style="endArrow=classic;html=1;rounded=0;strokeWidth=2;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="445" y="-708" as="sourcePoint" />
+            <mxPoint x="525" y="-748" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="84O-ct4bnFzRlTZ7ZsWm-8" value="Lógica Interna" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="540" y="-790" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="84O-ct4bnFzRlTZ7ZsWm-9" value="Lógica Externa" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontColor=#b85450;" parent="1" vertex="1">
+          <mxGeometry x="540" y="-748" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="nJ588UXQkUz6ROcZKHbB-6" value="&lt;p class=&quot;MsoNormal&quot;&gt;Nessa etapa do projeto haverá o sistema composto pelo&amp;nbsp;RFID Mfrc522&amp;nbsp; + ESP32, com uma interface web conectada ao MongoDB, que se comunica com o Hellix Sandbox NG. Sua função é realizar a leitura das tags do usuário e dos livros comprados.&lt;span style=&quot;font-size: 9pt; line-height: 107%; font-family: Helvetica, sans-serif;&quot;&gt;&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;&lt;br&gt;&lt;span style=&quot;background-image: initial; background-position: initial; background-size: initial; background-repeat: initial; background-attachment: initial; background-origin: initial; background-clip: initial;&quot;&gt;Quando iniciado pela tag do usuário, ele receberá o saldo do cliente, armazenando-o. A cada livro lido, ele consulta no banco MongoDB o seu preço e desconta do saldo.&lt;/span&gt;&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;&lt;br&gt;&lt;span style=&quot;background-image: initial; background-position: initial; background-size: initial; background-repeat: initial; background-attachment: initial; background-origin: initial; background-clip: initial;&quot;&gt;Quando o saldo for indisponível ou o usuário passar sua própria tag, o sistema finaliza a compra e registra/ as informações de quais livros foram computados no pedido.&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;" style="text;align=left;verticalAlign=top;resizable=1;points=[];autosize=0;strokeColor=none;fillColor=none;html=1;fixedWidth=0;resizeWidth=1;resizeHeight=1;imageAspect=1;overflow=visible;container=0;collapsible=0;expand=1;movableLabel=0;whiteSpace=wrap;" parent="1" vertex="1">
+          <mxGeometry x="445" y="-1050" width="350" height="230" as="geometry" />
+        </mxCell>
+        <mxCell id="BRJeWgNoY9jyuBpvt9jJ-1" value="&lt;p class=&quot;MsoNormal&quot; style=&quot;font-size: 35px;&quot;&gt;&lt;span style=&quot;font-size: 35px; line-height: 107%; font-family: Helvetica, sans-serif;&quot;&gt;PROJETO LIVRARIA&lt;/span&gt;&lt;/p&gt;" style="text;align=center;verticalAlign=middle;resizable=1;points=[];autosize=0;strokeColor=none;fillColor=none;html=1;fixedWidth=0;resizeWidth=1;resizeHeight=1;imageAspect=1;overflow=visible;container=0;collapsible=0;expand=1;movableLabel=0;whiteSpace=wrap;fontSize=35;" vertex="1" parent="1">
+          <mxGeometry x="9" y="-1140" width="810" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="BRJeWgNoY9jyuBpvt9jJ-2" value="&lt;p class=&quot;MsoNormal&quot; style=&quot;font-size: 35px;&quot;&gt;&lt;span style=&quot;font-size: 35px; line-height: 107%; font-family: Helvetica, sans-serif;&quot;&gt;IA&lt;/span&gt;&lt;/p&gt;" style="text;align=center;verticalAlign=middle;resizable=1;points=[];autosize=0;strokeColor=none;fillColor=none;html=1;fixedWidth=0;resizeWidth=1;resizeHeight=1;imageAspect=1;overflow=visible;container=0;collapsible=0;expand=1;movableLabel=0;whiteSpace=wrap;fontSize=35;fontColor=#ff0000;" vertex="1" parent="1">
+          <mxGeometry x="530" y="-1140" width="69" height="70" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram name="Cópia do Fluxo Compra" id="deQUzeFiUM5eMIlEBqSZ">
+    <mxGraphModel dx="472" dy="786" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="1enHZ9eHY10j1IATvhPv-0" />
+        <mxCell id="1enHZ9eHY10j1IATvhPv-1" parent="1enHZ9eHY10j1IATvhPv-0" />
+        <mxCell id="1enHZ9eHY10j1IATvhPv-2" value="&#xa;&lt;div style=&quot;border-color: var(--border-color);&quot;&gt;&lt;font style=&quot;border-color: var(--border-color);&quot;&gt;&lt;div style=&quot;border-color: var(--border-color);&quot;&gt;&lt;font style=&quot;border-color: var(--border-color);&quot; color=&quot;#333333&quot;&gt;&lt;span style=&quot;border-color: var(--border-color);&quot;&gt;ESP32 - WiFi + Bluetooth&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;border-color: var(--border-color);&quot;&gt;&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;&lt;/div&gt;&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;border-color: var(--border-color);&quot;&gt;&lt;font style=&quot;border-color: var(--border-color);&quot;&gt;Kit RFID Mfrc522 (13,56MHz)&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;border-color: var(--border-color);&quot;&gt;&lt;font style=&quot;border-color: var(--border-color);&quot;&gt;&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;border-color: var(--border-color);&quot;&gt;&lt;font style=&quot;border-color: var(--border-color);&quot;&gt;&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;border-color: var(--border-color);&quot;&gt;&lt;font style=&quot;border-color: var(--border-color);&quot;&gt;&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;border-color: var(--border-color);&quot;&gt;&lt;br style=&quot;border-color: var(--border-color); color: rgb(0, 0, 0); font-family: Tahoma; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; letter-spacing: normal; orphans: 2; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(251, 251, 251); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;&quot;&gt;&#xa;&#xa;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Tahoma;fontSize=12;align=left;verticalAlign=top;fontStyle=1;spacing=0;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;arcSize=6;spacingLeft=8;" parent="1enHZ9eHY10j1IATvhPv-1" vertex="1">
+          <mxGeometry x="40" y="290" width="290" height="230" as="geometry" />
+        </mxCell>
+        <mxCell id="1enHZ9eHY10j1IATvhPv-3" value="&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;br&gt;Helix Sandbox NGURL&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Tahoma;fontSize=12;align=left;verticalAlign=top;fontStyle=1;spacing=0;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;arcSize=6;spacingLeft=8;" parent="1enHZ9eHY10j1IATvhPv-1" vertex="1">
+          <mxGeometry x="382" y="290" width="288" height="230" as="geometry" />
+        </mxCell>
+        <mxCell id="1enHZ9eHY10j1IATvhPv-4" value="&lt;br&gt;Camada de dados (MongoDB e SQL Server)" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Tahoma;fontSize=12;align=left;verticalAlign=top;fontStyle=1;spacing=0;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;arcSize=6;spacingLeft=8;" parent="1enHZ9eHY10j1IATvhPv-1" vertex="1">
+          <mxGeometry x="710" y="290" width="260" height="230" as="geometry" />
+        </mxCell>
+        <mxCell id="1enHZ9eHY10j1IATvhPv-5" value="&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;br&gt;Aplicação ASP NET MVC&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Tahoma;fontSize=12;align=left;verticalAlign=top;fontStyle=1;spacing=0;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;arcSize=6;spacingLeft=8;" parent="1enHZ9eHY10j1IATvhPv-1" vertex="1">
+          <mxGeometry x="1030" y="180" width="540" height="420" as="geometry" />
+        </mxCell>
+        <mxCell id="1enHZ9eHY10j1IATvhPv-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1enHZ9eHY10j1IATvhPv-1" source="1enHZ9eHY10j1IATvhPv-7" target="1enHZ9eHY10j1IATvhPv-9" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="1enHZ9eHY10j1IATvhPv-7" value="Leitura da Tag RFID Mifare correspondente ao usuário para liberar entrada" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1enHZ9eHY10j1IATvhPv-1" vertex="1">
+          <mxGeometry x="80" y="400" width="185" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="1enHZ9eHY10j1IATvhPv-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1enHZ9eHY10j1IATvhPv-1" source="1enHZ9eHY10j1IATvhPv-9" target="1enHZ9eHY10j1IATvhPv-11" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="1enHZ9eHY10j1IATvhPv-9" value="Envio da Id Lido do usuário" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1enHZ9eHY10j1IATvhPv-1" vertex="1">
+          <mxGeometry x="433.5" y="400" width="185" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="1enHZ9eHY10j1IATvhPv-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1enHZ9eHY10j1IATvhPv-1" source="1enHZ9eHY10j1IATvhPv-11" target="1enHZ9eHY10j1IATvhPv-15" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="1enHZ9eHY10j1IATvhPv-11" value="Armazenamento do Id" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1enHZ9eHY10j1IATvhPv-1" vertex="1">
+          <mxGeometry x="747.5" y="400" width="185" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="1enHZ9eHY10j1IATvhPv-12" value="Não" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1enHZ9eHY10j1IATvhPv-1" source="1enHZ9eHY10j1IATvhPv-15" target="1enHZ9eHY10j1IATvhPv-18" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="1enHZ9eHY10j1IATvhPv-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1enHZ9eHY10j1IATvhPv-1" source="1enHZ9eHY10j1IATvhPv-15" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1340" y="557" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1170" y="557" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1enHZ9eHY10j1IATvhPv-14" value="Sim" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];labelBackgroundColor=#FFFFFF;fontSize=13;" parent="1enHZ9eHY10j1IATvhPv-13" vertex="1" connectable="0">
+          <mxGeometry x="-0.8604" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1enHZ9eHY10j1IATvhPv-15" value="Usuário Cadastrado?" style="rhombus;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1enHZ9eHY10j1IATvhPv-1" vertex="1">
+          <mxGeometry x="1070" y="390" width="200" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="1enHZ9eHY10j1IATvhPv-16" value="Exibir Tela Usuário" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="1enHZ9eHY10j1IATvhPv-1" vertex="1">
+          <mxGeometry x="1342.5" y="530" width="185" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="1enHZ9eHY10j1IATvhPv-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1enHZ9eHY10j1IATvhPv-1" source="1enHZ9eHY10j1IATvhPv-18" target="1enHZ9eHY10j1IATvhPv-16" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="1enHZ9eHY10j1IATvhPv-18" value="Exibir Tela Cadastro&lt;br&gt;(Novo ou associar a um existente)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1enHZ9eHY10j1IATvhPv-1" vertex="1">
+          <mxGeometry x="1330" y="400" width="210" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="1enHZ9eHY10j1IATvhPv-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1enHZ9eHY10j1IATvhPv-1" source="1enHZ9eHY10j1IATvhPv-20" target="1enHZ9eHY10j1IATvhPv-15" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1410" y="330" />
+              <mxPoint x="1170" y="330" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1enHZ9eHY10j1IATvhPv-20" value="Usuário acessa por User e Senha" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1enHZ9eHY10j1IATvhPv-1" vertex="1">
+          <mxGeometry x="1330" y="240" width="192.5" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="1enHZ9eHY10j1IATvhPv-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1enHZ9eHY10j1IATvhPv-1" source="1enHZ9eHY10j1IATvhPv-22" target="1enHZ9eHY10j1IATvhPv-20" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="1enHZ9eHY10j1IATvhPv-22" value="Tela Principal" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1enHZ9eHY10j1IATvhPv-1" vertex="1">
+          <mxGeometry x="1060" y="240" width="192.5" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

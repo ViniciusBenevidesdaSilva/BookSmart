@@ -1,0 +1,10 @@
+C:\Users\HP\Downloads\BookSmart\DataAccess\bin\Debug\netcoreapp3.1\DataAccess.deps.json
+C:\Users\HP\Downloads\BookSmart\DataAccess\bin\Debug\netcoreapp3.1\DataAccess.dll
+C:\Users\HP\Downloads\BookSmart\DataAccess\bin\Debug\netcoreapp3.1\DataAccess.pdb
+C:\Users\HP\Downloads\BookSmart\DataAccess\obj\Debug\netcoreapp3.1\DataAccess.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\HP\Downloads\BookSmart\DataAccess\obj\Debug\netcoreapp3.1\DataAccess.AssemblyInfoInputs.cache
+C:\Users\HP\Downloads\BookSmart\DataAccess\obj\Debug\netcoreapp3.1\DataAccess.AssemblyInfo.cs
+C:\Users\HP\Downloads\BookSmart\DataAccess\obj\Debug\netcoreapp3.1\DataAccess.csproj.CoreCompileInputs.cache
+C:\Users\HP\Downloads\BookSmart\DataAccess\obj\Debug\netcoreapp3.1\DataAccess.dll
+C:\Users\HP\Downloads\BookSmart\DataAccess\obj\Debug\netcoreapp3.1\DataAccess.pdb
+C:\Users\HP\Downloads\BookSmart\DataAccess\obj\Debug\netcoreapp3.1\DataAccess.csproj.AssemblyReference.cache

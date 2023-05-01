@@ -1,0 +1,11 @@
+﻿CREATE PROCEDURE spProximoId
+(
+	@Tabela VARCHAR(MAX)
+)
+AS
+BEGIN
+	DECLARE @sql VARCHAR(MAX)
+	SET @sql = 'SELECT ISNULL(IDENT_CURRENT(''' + @Tabela + '''),1) AS Id'
+	EXEC(@sql)
+END
+GO

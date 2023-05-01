@@ -1,0 +1,122 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="4.0">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <Name>LivrariaDB</Name>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectVersion>4.1</ProjectVersion>
+    <ProjectGuid>{6e413882-fa58-4980-b741-904cad1ab6d0}</ProjectGuid>
+    <DSP>Microsoft.Data.Tools.Schema.Sql.Sql130DatabaseSchemaProvider</DSP>
+    <OutputType>Database</OutputType>
+    <RootPath>
+    </RootPath>
+    <RootNamespace>LivrariaDB</RootNamespace>
+    <AssemblyName>LivrariaDB</AssemblyName>
+    <ModelCollation>1033, CI</ModelCollation>
+    <DefaultFileStructure>BySchemaAndSchemaType</DefaultFileStructure>
+    <DeployToDatabase>True</DeployToDatabase>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <TargetLanguage>CS</TargetLanguage>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <SqlServerVerification>False</SqlServerVerification>
+    <IncludeCompositeObjects>True</IncludeCompositeObjects>
+    <TargetDatabaseSet>True</TargetDatabaseSet>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <OutputPath>bin\Release\</OutputPath>
+    <BuildScriptName>$(MSBuildProjectName).sql</BuildScriptName>
+    <TreatWarningsAsErrors>False</TreatWarningsAsErrors>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <OutputPath>bin\Debug\</OutputPath>
+    <BuildScriptName>$(MSBuildProjectName).sql</BuildScriptName>
+    <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">11.0</VisualStudioVersion>
+    <!-- Default to the v11.0 targets path if the targets file for the current VS version is not found -->
+    <SSDTExists Condition="Exists('$(MSBuildExtensionsPath)\Microsoft\VisualStudio\v$(VisualStudioVersion)\SSDT\Microsoft.Data.Tools.Schema.SqlTasks.targets')">True</SSDTExists>
+    <VisualStudioVersion Condition="'$(SSDTExists)' == ''">11.0</VisualStudioVersion>
+  </PropertyGroup>
+  <Import Condition="'$(SQLDBExtensionsRefPath)' != ''" Project="$(SQLDBExtensionsRefPath)\Microsoft.Data.Tools.Schema.SqlTasks.targets" />
+  <Import Condition="'$(SQLDBExtensionsRefPath)' == ''" Project="$(MSBuildExtensionsPath)\Microsoft\VisualStudio\v$(VisualStudioVersion)\SSDT\Microsoft.Data.Tools.Schema.SqlTasks.targets" />
+  <ItemGroup>
+    <Folder Include="Properties" />
+    <Folder Include="Tables" />
+    <Folder Include="Stored_Procedures" />
+    <Folder Include="Views" />
+    <Folder Include="Tables\Livros" />
+    <Folder Include="Tables\Usuarios" />
+    <Folder Include="Tables\Vendas" />
+    <Folder Include="Stored_Procedures\Padrao" />
+    <Folder Include="Stored_Procedures\Insert" />
+    <Folder Include="Stored_Procedures\Update" />
+    <Folder Include="Stored_Procedures\Personalizados" />
+    <Folder Include="Stored_Procedures\Insert\Usuarios" />
+    <Folder Include="Stored_Procedures\Insert\Livros" />
+    <Folder Include="Stored_Procedures\Insert\Vendas" />
+    <Folder Include="Stored_Procedures\Update\Livros" />
+    <Folder Include="Stored_Procedures\Update\Vendas" />
+    <Folder Include="Stored_Procedures\Update\Usuarios" />
+  </ItemGroup>
+  <ItemGroup>
+    <Build Include="Views\VW_Estoque.sql" />
+    <Build Include="Tables\Livros\Capa_Livro.sql" />
+    <Build Include="Tables\Livros\Generos.sql" />
+    <Build Include="Tables\Livros\Livros.sql" />
+    <Build Include="Tables\Usuarios\Clientes.sql" />
+    <Build Include="Tables\Usuarios\Sexos.sql" />
+    <Build Include="Tables\Usuarios\Usuarios.sql" />
+    <Build Include="Tables\Livros\Livrarias.sql" />
+    <Build Include="Tables\Livros\Livro_Rfid.sql" />
+    <Build Include="Tables\Vendas\Vendas.sql" />
+    <Build Include="Tables\Vendas\Venda_Livro.sql" />
+    <Build Include="Tables\Livros\Avaliacoes.sql" />
+    <Build Include="Stored_Procedures\Padrao\spDelete.sql" />
+    <Build Include="Stored_Procedures\Padrao\spConsulta.sql" />
+    <Build Include="Stored_Procedures\Padrao\spListagem.sql" />
+    <Build Include="Stored_Procedures\Padrao\spProximoId.sql" />
+    <Build Include="Stored_Procedures\Insert\Livros\spInsert_Capa_Livro.sql" />
+    <Build Include="Stored_Procedures\Insert\Usuarios\spInsert_Sexos.sql" />
+    <Build Include="Stored_Procedures\Insert\Usuarios\spInsert_Clientes.sql" />
+    <Build Include="Stored_Procedures\Insert\Usuarios\spInsert_Usuarios.sql" />
+    <Build Include="Stored_Procedures\Insert\Livros\spInsert_Generos.sql" />
+    <Build Include="Stored_Procedures\Insert\Livros\spInsert_Livrarias.sql" />
+    <Build Include="Stored_Procedures\Insert\Livros\spInsert_Livro_Rfid.sql" />
+    <Build Include="Stored_Procedures\Insert\Livros\spInsert_Livros.sql" />
+    <Build Include="Stored_Procedures\Insert\Vendas\spInsert_Venda_Livro.sql" />
+    <Build Include="Stored_Procedures\Insert\Vendas\spInsert_Vendas.sql" />
+    <Build Include="Stored_Procedures\Insert\Livros\spInsert_Avaliacoes.sql" />
+    <Build Include="Stored_Procedures\Update\Usuarios\spUpdate_Usuarios.sql" />
+    <Build Include="Stored_Procedures\Update\Livros\spUpdate_Generos.sql" />
+    <Build Include="Stored_Procedures\Update\Usuarios\spUpdate_Sexos.sql" />
+    <Build Include="Stored_Procedures\Update\Usuarios\spUpdate_Clientes.sql" />
+    <Build Include="Stored_Procedures\Update\Livros\spUpdate_Livros.sql" />
+    <Build Include="Stored_Procedures\Update\Livros\spUpdate_Capa_Livro.sql" />
+    <Build Include="Stored_Procedures\Update\Livros\spUpdate_Livrarias.sql" />
+    <Build Include="Stored_Procedures\Update\Livros\spUpdate_Livro_Rfid.sql" />
+    <Build Include="Stored_Procedures\Update\Vendas\spUpdate_Vendas.sql" />
+    <Build Include="Stored_Procedures\Update\Vendas\spUpdate_Venda_Livro.sql" />
+    <Build Include="Stored_Procedures\Update\Livros\spUpdate_Avaliacoes.sql" />
+    <Build Include="Stored_Procedures\Personalizados\spPesquisa_Usuario.sql" />
+    <Build Include="Stored_Procedures\Personalizados\spListagem_Livros.sql" />
+    <Build Include="Stored_Procedures\Personalizados\spListagem_Foreign.sql" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="MainQuery.sql" />
+  </ItemGroup>
+</Project>
